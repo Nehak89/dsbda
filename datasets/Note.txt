@@ -1,0 +1,17 @@
+You will find datasets here that are used in jupyter notebook
+
+1)Data Wrangling 1->iris.csv
+2)Data Wrangling 2->A2.csv
+3)Descriptive Statistics->1data.csv,iris.csv
+4)Data Analytics 1->housing_data(1).csv
+5)Data Analytics 2->Social_Ntwork_Ads.csv
+6)Data Anaytics 3->iris.csv
+7)Text Analytics->Reviews.csv
+8)Data Visualization 1->titanic-dataset.csv
+9)Data Visualization 2->titanic-dataset.
+10)Data Visualization 3->iris.csv
+
+Reviews.csv->https://drive.google.com/file/d/1v006q23KtsCJ8LYXQC-gkJhxIuhyVRAa/view?usp=sharing
+
+12) Weblog Processing->weblog.csv
+
