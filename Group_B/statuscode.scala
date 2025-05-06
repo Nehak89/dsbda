@@ -10,8 +10,8 @@ object WebLogProcessor {
 
     val statusCodes = logs
       .map(_.split(" "))
-      .filter(_.length > 8)
-      .map(fields => (fields(8), 1))
+      .filter(_.length >=6)  //contains only 6 fields
+      .map(fields => (fields.last, 1))  //status code is at last place
       .reduceByKey(_ + _)
 
     println("Status Code Counts:")
