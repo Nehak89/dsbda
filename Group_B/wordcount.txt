@@ -1,0 +1,25 @@
+//Procedure
+echo $SHELL 
+For Bash (~/.bashrc):
+nano ~/.bashrc
+
+export PATH="/home/student/DSBDAL/spark-3.5.1-bin-hadoop3/bin:$PATH"
+
+Save and Exit: After adding the line, save the file and exit the editor. In Nano, you can do this by pressing Ctrl + O to write the file and Ctrl + X to exit.
+
+To apply the changes to your current terminal session, either close and reopen the terminal or run:
+source ~/.bashrc
+
+echo $PATH
+You should see the path to Spark's bin directory listed in the output.
+
+spark-shell
+//program
+val inputfile = sc.textFile("/home/student/DSBDAL/wordcount_input.txt")
+val counts = inputfile.flatMap(line => line.split(" ")).map(word => (word, 1)).reduceByKey(_+_);
+counts.toDebugString
+counts.cache()
+counts.saveAsTextFile("output")
+
+Use following command to execute the code
+spark-shell<  wordcount.scala
