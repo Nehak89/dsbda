@@ -2,7 +2,7 @@ You will find datasets here that are used in jupyter notebook
 
 1)Data Wrangling 1->iris.csv
 2)Data Wrangling 2->A2.csv
-3)Descriptive Statistics->1data.csv,iris.csv
+3)Descriptive Statistics->data.csv,iris.csv
 4)Data Analytics 1->housing_data(1).csv
 5)Data Analytics 2->Social_Ntwork_Ads.csv
 6)Data Anaytics 3->iris.csv
